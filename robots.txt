@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /Timeline
+Disallow: /Projects
+Disallow: /About
+Disallow: /Subscribe

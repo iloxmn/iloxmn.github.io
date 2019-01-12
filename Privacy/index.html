@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html><!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
+	<head>
+		<meta charset="utf-8">
+		<!-- InstanceBeginEditable name="doctitle" -->
+		<title>It's iloxmn</title>
+		<!-- InstanceEndEditable -->
+		<meta name="author" content="iloxmn, its@iloxmn.com"/>
+		<meta name="keywords" content="iloxmn,blog"/>
+		<meta name="description" content="Nowhere To Hide"/>
+		<meta name="robots" content="nocache"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui"/>
+		<link rel="shortcut icon" href="/favicon.ico"/>
+		<link rel="stylesheet" href="/Style/style.css" media="screen" type="text/css"/>
+		<link rel="stylesheet" href="/Style/font.css" media="screen" type="text/css"/>
+	</head>
+	<body>
+		<nav id="nav">
+			<a class="logo" href="/About">&#xF0006;</a>
+    		<a class="text" href="/About">It's iloxmn</a>
+			<label for="show-menu" class="show-menu" id="checkBoxGlyph">&#xF0005;</label>
+			<input type="checkbox" id="show-menu" role="button" onchange="transform()">
+			<ul id="menu">
+				<!-- InstanceBeginEditable name="menu" -->
+				<li><a class="se" href="/">&#xF0002; Articles</a></li>
+				<li><a class="unse" href="/Projects">&#xF0003; Projects</a></li>
+				<li><a class="unse" href="/Timeline">&#xF0004; Timeline</a></li>
+				<!-- InstanceEndEditable -->
+			</ul>
+			<script type="text/javascript">
+            var userAgent = navigator.userAgent.toLowerCase(); 
+            var webView = userAgent.indexOf("webview") > -1; 
+            if(webView)
+    		{
+				var PC = userAgent.indexOf("windows nt") > -1;
+				var Mobile = userAgent.indexOf("windows phone") > -1; 
+				
+				if (PC)
+				{
+				document.getElementById("nav").style.marginTop="24px";
+				if (window.matchMedia("(min-width: 400px)").matches) 
+				{
+				document.getElementById("nav").style.paddingTop="18px";
+				document.getElementById("nav").style.marginTop="0px";
+        		} 
+				}
+				if (Mobile)
+				{
+				document.getElementById("nav").style.paddingTop="12px";
+				}
+			}
+	
+			function transform()
+			{
+  				if (document.getElementById('show-menu').checked) 
+  				{
+   				document.getElementById('checkBoxGlyph').style.transform = "rotateX(180deg)";
+  				//document.getElementById('checkBoxGlyph').innerHTML = 'your tip has been submitted!';
+  				}
+				else
+				{
+				document.getElementById('checkBoxGlyph').style.transform = "rotateX(0deg)";  }
+			}
+			function changeFrameHeight()
+			{
+            var ifm= document.getElementById("mainiframe");
+			console.log(document.documentElement.scrollHeight);
+			console.log(document.documentElement.clientHeight);
+            ifm.height=document.documentElement.scrollHeight;
+            }
+            //window.onresize=function(){ changeFrameHeight();}
+			console.log(document.getElementById("mainiframe").contentWindow.document.body.scrollHeight)
+   			</script>
+		</nav>
+		<!-- InstanceBeginEditable name="content" -->
+		<main>
+			<article>
+				<a class="title">Privacy Statement</a>
+				<div class="time">Jan 13, 2019</div>
+				<div class="content" style="text-align: left;">
+				<p><strong>Your privacy is important to me.</strong></p><br>
+				<p>This privacy statement explains what personal data I collect from you and how I use it.</p>
+				<p>The product-specific details sections provide additional information relevant to all iloxmn products.</p>
+				<p>References to iloxmn products in this statement include iloxmn services, websites, apps and software.</p><br>
+				<p><strong>Personal Data I Collect</strong></p><br>
+				<p>I collect <dat>			</dat>a to operate effectively and provide you the best experiences with my products.</p>
+				<p>You provide some of this data directly, such as when you browse my site, check the weather through Project Willow.</p>
+				<p>I get some of it by recording how you interact with my products by, for example, using technologies like Analytics, and receiving error reports or usage data from software running on your device.</p><br>
+				<p>You have choices about the data I collect.</p>
+				<p>When you are asked to provide personal data, you may decline. But if you choose not to provide data that is necessary to provide a product or feature, you may not be able to use that product or feature.</p>
+				<p>The data I collect depends on the products and features you use, and can include the following:</p><br>
+				<p><strong>Demographic data.</strong> I collect data about you such as your country, time zone and preferred language.</p><br>
+				<p><strong>Location data.</strong> I collect data about your location, which can be either precise or imprecise.</p><br>
+				<p>Precise location data can be Global Position System (GPS) data, as well as data identifying nearby cell towers and Wi-Fi hotspots, I collect when you enable location-based products or features.</p>
+				<p>Imprecise location data includes, for example, a location derived from your IP address or data that indicates where you are located with less precision, such as at a city or postal code level.</p><br>
+				<p><strong>How I Use Personal Data</strong></p><br>
+				<p>Please note that, I don't share your personal data in any form.</p>
+				<p>I use the data I collect to provide you the products I offer, which includes using data to improve your experiences.</p>
+				<p>This includes operating the products, maintaining and improving the performance of the products, including developing new features.</p><br>
+				<p><strong>Preview Releases</strong></p><br>
+				<p>I offers preview, beta or other pre-release products and features to enable you to evaluate them while providing feedback, including performance and usage data to me.</p>
+				<p>As a result, previews can automatically collect additional data, provide fewer controls, and otherwise employ different privacy and security measures than those typically present in my products.</p>
+				<p>If you participate in previews, I may contact you about your feedback or your interest in continuing to use the product after general release.</p><br>
+				<p><strong>Changes to This Privacy Statement</strong></p><br>
+				<p>I will update this privacy statement when necessary to reflect customer feedback and changes in my products.</p>
+				<p>When I post changes to this statement, I will revise the &quot;last updated&quot; date at the top of the statement.</p>
+				<p>If there are material changes to the statement or in how I will use your personal data, I will notify you either by prominently posting a notice of such changes before they take effect or by directly sending you a notification.</p></div>
+			</article>
+		</main>
+		<!-- InstanceEndEditable -->
+    	<footer>
+    		<div>
+	 			<a class="language" href="/Language">English</a>
+	  			<a class="contact" href="mailto:its@iloxmn.com?Subject=¯\_(ツ)_/¯">Contact</a>
+	  			<a class="about" href="/About">@iloxmn</a>
+	  			<a class="copyright">&copy; 2018</a>
+			</div>
+		</footer>
+	</body>
+<!-- InstanceEnd --></html>
