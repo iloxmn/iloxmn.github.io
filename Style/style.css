@@ -51,6 +51,11 @@ article .title {
   letter-spacing: 2px;
   font-weight: 600;
 }
+article .time {
+padding-top: 4px;
+
+
+}
   .se {
   border-bottom-color: black;
   border-bottom-style: solid;
@@ -58,7 +63,8 @@ article .title {
 }
 article .content {
   font-size: 1.25em;
-  padding-top: 4px;
+	text-align: left;
+  //padding-top: 4px;
   padding-left: 0em;
   padding-right: 0em;
 }
