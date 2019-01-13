@@ -38,7 +38,7 @@ nav .text {
 main {
   padding-top: 48px;
   padding-bottom: 48px;
-  padding-left: 1em;
+  padding-left: 2em;
   padding-right: 1em;
 }
 article {
@@ -53,8 +53,6 @@ article .title {
 }
 article .time {
 padding-top: 4px;
-
-
 }
   .se {
   border-bottom-color: black;
@@ -63,9 +61,9 @@ padding-top: 4px;
 }
 article .content {
   font-size: 1.25em;
-	text-align: left;
-  //padding-top: 4px;
+  text-align: left;
   padding-left: 0em;
+	
   padding-right: 0em;
 }
 .pagination {
