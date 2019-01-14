@@ -18,8 +18,8 @@
 	</head>
 	<body>
 		<nav id="nav">
-			<a class="logo" href="/About">&#xF0006;</a>
-    		<a class="text" href="/About">正是 iloxmn</a>
+			<a class="logo" onClick="backtotop()">&#xF0006;</a>
+    		<a class="text" onClick="backtotop()">正是 iloxmn</a>
 			<label for="show-menu" class="show-menu" id="checkBoxGlyph">&#xF0005;</label>
 			<input type="checkbox" id="show-menu" role="button" onchange="transform()">
 			<ul id="menu">
@@ -63,6 +63,11 @@
 				{
 				document.getElementById('checkBoxGlyph').style.transform = "rotateX(0deg)";  }
 			}
+			function backtotop() 
+			{
+				document.body.scrollTop = 0; // For Safari
+				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}
    			</script>
 		</nav>
 		<!-- InstanceBeginEditable name="content" -->
@@ -104,7 +109,7 @@
     		<div>
 	 			<a class="language" href="/Language">中文</a>
 	  			<a class="contact" href="mailto:its@iloxmn.com?Subject=¯\_(ツ)_/¯">联系</a>
-	  			<a class="about" href="/About">@iloxmn</a>
+	  			<a class="about" href="/zh-CN/About">@iloxmn</a>
 	  			<a class="copyright">&copy; 2019</a>
 			</div>
 		</footer>
